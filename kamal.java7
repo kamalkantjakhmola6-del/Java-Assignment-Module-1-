@@ -1,0 +1,21 @@
+public class EvenNumberSum {
+
+    public static void main(String[] args) {
+
+        int number = 1;
+        int sum = 0;
+
+        // Loop from 1 to 50
+        while (number <= 50) {
+
+            // Check whether number is even
+            if (number % 2 == 0) {
+                sum = sum + number;
+            }
+
+            number++;
+        }
+
+        System.out.println("Sum of even numbers from 1 to 50 = " + sum);
+    }
+}
